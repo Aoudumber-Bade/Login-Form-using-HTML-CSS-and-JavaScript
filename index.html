@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="Aoudumber Bade">
+    <title>Login/Sign Up</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="website icon" type="jpeg" href="./img/pt.jpeg">
+    <script
+      src="https://kit.fontawesome.com/2e95d79f91.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+  
+         <div id="container">
+        <div id="row-1">
+          <div id="col-2">
+            <hr>
+            <h1 id="hd-1">Welcome Back!</h1>
+            <p class="text-light">
+              The scenic route is always better.
+            </p>
+            <button type="button" class="btn-1" id="button-f" onclick="signUpBtn()">SIGN UP</button>
+            <button type="button" class="btn-1" id="button-s" onclick="loginBtn()">LOGIN</button>
+          </div>
+        </div>
+    
+        <div id="row2">
+          <div id="col-3">
+            <div class="form-log">
+              <form id="login" class="form" name="form">
+                <h1 id="f-hd">Welcome!!!</h1>
+                <div class="icons">
+                  <i id="i" class="fa-brands fa-google fa-2x fa-black"></i>
+              <i id="i" class="fa-brands fa-instagram fa-2x"></i>
+              <i id="i" class="fa-brands fa-twitter fa-2x"></i>
+                </div>
+            <p class="par-1">Login Through Your Email & Password</p>
+            
+            <div class="inp">
+              <i class="fa-regular fa-user"></i>
+              <input
+              type="text"
+              placeholder="Enter Your Name"
+              value="" 
+              id="rn"
+              required
+            />
+            </div>
+          
+    
+            <div class="inp">
+              <i class="fa-regular fa-envelope"></i>
+              <input
+              type="email"
+              placeholder="Your Email Address"
+              value=""
+              id="se"
+              required
+            />
+            </div>
+    
+            <div class="inp">
+              <i class="fa-solid fa-lock"></i>
+              <input
+              type="password"
+              placeholder="Password"
+              value=""
+                id="sp"
+              required
+            />
+            </div>
+                <div id="checkbox">
+                  <label
+                    ><input type="checkbox"/>
+                    <span>Remember Me</span></label
+                  >
+
+                  <button type="button" onclick="forTabFun()">Forget Password?</button>
+                </div>
+                <button type="button" id="button-2" onclick="login()">LOG IN</button>
+              </form>
+            </div>
+           <div class="form-reg">
+            <form id="signUp" class="form" name="form">
+              <h1 id="f-hd">Create Account</h1>
+                <div class="icons">
+                  <i id="i" class="fa-brands fa-google fa-2x fa-black"></i>
+              <i id="i" class="fa-brands fa-instagram fa-2x"></i>
+              <i id="i" class="fa-brands fa-twitter fa-2x"></i>
+                </div>
+            <p>Or use your email for registration</p>
+              
+              <div class="inp">
+                <i class="fa-regular fa-user"></i>
+                <input
+                type="text"
+                placeholder="Enter Your Name"
+                value="" 
+        
+                id="rn"
+                required
+              />
+              </div>
+    
+              <div class="inp">
+                <i class="fa-regular fa-envelope"></i>
+                <input
+                type="email"
+                placeholder="Your Email Address"
+                value=""
+    
+                id="re"
+                required
+              />
+              </div>
+    
+              <div class="inp">
+                <i class="fa-solid fa-lock"></i>
+                <input
+                type="password"
+                placeholder="Create a Password"
+                value=""
+        
+                id="rp"
+                required
+              />
+              </div>
+    
+              <div class="inp">
+                <i class="fa-solid fa-lock"></i>
+                <input
+                type="password"
+                placeholder="Confirm the Password"
+                value=""
+               
+                id="rrp"
+                required
+              />
+              </div>
+            
+              <div id="checkbox">
+                <label
+                  ><input type="checkbox"/>
+                  <span>I agree to Terms and conditions</span></label
+                >
+              </div>
+              <button type="button" id="button-2" onclick="register()">Register</button>
+            </form>
+           </div>
+          </div>
+          <div id="forgot">
+            <h3>Forgot Password</h3>
+            <div>
+                <div class="inp">
+                  <i class="fa-regular fa-envelope"></i>
+                    <input id="fe" type="email" placeholder="Email" required/>
+                </div>
+                <button type="button" id="button-2" onclick="forgot()">SUBMIT</button>
+            </div>
+            </div>
+        </div>
+        </div>
+     
+
+  <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
+
+
+/* ------------ Sign Up Page ------------- */
+
+
+  
+  #container {
+    height: 90vh;
+    padding: 30px;
+    margin-left: 50px;
+    /* margin: 20px; */
+  }
+  
+  #row-1 {
+    text-align: center;
+    width: 48%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  
+  #row2 {
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+    float: right;
+  }
+  
+  #col-2 {
+    margin-top: 65px;
+    padding-top: 398px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+      url("./img/bg9.jpg");
+    backdrop-filter: blur(100%);
+    background-color: #0289d1;
+    border-radius: 30px;
+    height: 84vh;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: -5px -6px 13px white, -2px 4px 10px #babecc;
+    animation: col2 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes col2 {
+    from {
+      padding-top: 39px;
+    }
+    to {
+      padding-top: 398px;
+    }
+  }
+  
+  #col-2 a {
+    font-weight: 600;
+  }
+  
+  #col-2 p {
+    padding-bottom: 20px;
+    color: #fff;
+  }
+  
+  .form .par-1 {
+    padding: 20px 0px;
+    margin-bottom: 20px;
+  }
+  
+  #col-3 {
+    margin-top: 65px;
+    margin-left: 7%;
+    height: 84vh;
+    margin-right: 10%;
+    padding: 3vw 4vw;
+    background-color: #fff;
+    border-top: 5px solid #1f65f0;
+    border-radius: 30px;
+    box-shadow: -5px -6px 13px white, -2px 4px 10px #babecc;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    animation: col3 2s;
+  }
+  
+  @keyframes col3 {
+    from {
+      border-top: 500px solid #1f65f0;
+    }
+    to {
+      border-top: 9px solid #1f65f0;
+    }
+  }
+  
+  #col-3:hover {
+    border-top: 11px solid #1f65f0;
+  }
+  
+  #col-3 a {
+    font-weight: 600;
+  }
+  
+  #col-3 p {
+    padding: 10px;
+  }
+  
+  #col-2 hr {
+    color: #fff;
+    width: 40%;
+    margin-left: 29%;
+    font-weight: 900;
+    border: 1.7px solid #fff;
+  }
+  
+  #hd-1 {
+    margin-bottom: 7px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    width: 100%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  
+  #col-2 .btn-1 {
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-right: 5px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  
+  #col-2 .btn-1:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 88, 242);
+    border-bottom: 3px solid #1f65f0;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 0 rgba(6, 113, 252, 0.986);
+  }
+  
+  #f-hd {
+    margin-bottom: 2px;
+    color: #1f65f0;
+    border-radius: 15px;
+    font-size: 39px;
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  
+  .form-reg #f-hd {
+    font-size: 35px;
+    margin: 0;
+  }
+  
+  .form-reg #i {
+    font-size: 20px;
+  }
+  
+  .form-log p {
+    margin-top: 0;
+  }
+  
+  .form-reg p {
+    font-size: 14px;
+  }
+  
+  .form-reg .inp {
+    padding: ;
+  }
+  
+  #i {
+    font-size: 24px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  #i:hover {
+    background: #1f65f0;
+    font-size: 24px;
+    color: #eaeaea !important;
+    box-shadow: inset 2px 2px 5px #babecc,
+      inset -5px -5px 10px rgba(255, 255, 255, 0.228);
+  }
+  
+  #i {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #333;
+    margin-bottom: -5px;
+  }
+  
+  .inp .fa-regular,
+  .fa-solid {
+    padding-right: 5px;
+    font-size: 17px;
+  }
+  
+  .form {
+    position: relative;
+    text-align: center;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+  
+  .form-reg {
+    text-align: center;
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+  }
+  
+  .form .form-reg input {
+    padding: 7px;
+    margin-bottom: 5px !important;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  form .inp {
+    padding: 20px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 20px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+  }
+  
+  .form-reg .inp {
+    padding: 17px 20px !important;
+  }
+  
+  .form .inp input {
+    font-size: 15px;
+    margin-right: 12vw;
+    align-items: left;
+    text-align: left;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .form .inp:hover {
+    border-bottom: 0.2px solid #0044ff !important;
+    box-shadow: 2px 2px 5px #babecc;
+  }
+  
+  .form input::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .form form {
+    color: #2196f3;
+  }
+  
+  #checkbox {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  
+  #checkbox label {
+    color: #2196f3;
+  }
+  
+  #checkbox label span {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 5px;
+  }
+  
+  #checkbox button {
+    color: #1f65f0;
+    background: transparent;
+    font-weight: 650;
+    font-size: 15px;
+    margin-left: 34%;
+    text-decoration: none;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  #checkbox button:hover {
+    color: #c2878c;
+  }
+  
+  #button-2 {
+    background-color: #1f65f0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 5rem;
+    transition: 0.5s;
+  }
+  
+  #button-2:hover {
+    border: 2px solid #1f65f0;
+    color: #1f65f0;
+    background: transparent;
+    box-shadow: 2px 2px 5px #babecc;
+  }
+  
+  #forgot .inp input {
+    text-align: left;
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin-right: 210px;
+  }
+  
+  #forgot .inp {
+    margin: 15px 100px 0px 100px;
+    border: 1px solid #000;
+    border-radius: 15px !important;
+  }
+  
+  #forgot {
+    margin: 15px 80px;
+    padding: 120px 30px;
+    position: relative;
+  }
+  
+  #forgot h3 {
+    margin-bottom: 2px;
+    color: #1f65f0;
+    border-radius: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  
+  #forgot a {
+    font-weight: 600;
+  }
+  
